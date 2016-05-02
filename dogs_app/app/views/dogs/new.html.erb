@@ -1,0 +1,9 @@
+<h1>New Dog</h1>
+
+<%= form_for(@dog) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :color %>
+  <%= f.text_field :color %>
+  <%= f.submit %>
+<% end %>
